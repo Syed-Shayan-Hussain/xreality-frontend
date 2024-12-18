@@ -1,0 +1,87 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* Custom styles for the react-calendar */
+
+.react-calendar {
+  background: transparent !important;
+  border: none !important;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.react-calendar__tile {
+  background: transparent !important;
+  border: none !important;
+  color: #333;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.react-calendar__tile--now {
+  color: white !important; /* Purple color for today's date */
+  font-weight: bold;
+  background-color: #7e3af2 !important; 
+}
+
+.react-calendar__tile--hover {
+  background-color: #f3e8ff !important; /* Light purple on hover */
+  color: #6b46c1 !important;
+  border-radius: 8px;
+}
+
+.react-calendar_month-viewdays_day--weekend {
+  color: #6b46c1; /* Customize weekend color if needed */
+}
+
+.react-calendar__tile--active {
+  background-color: #d1c4e9 !important; /* Light purple for selected date */
+  color: #fff !important;
+  border-radius: 8px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
